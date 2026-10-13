@@ -1,0 +1,9 @@
+# Compiled binaries and objects
+quiz
+StudyApp
+*.o
+*.out
+*.exe
+
+# Build directories
+build/
