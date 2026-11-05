@@ -4,7 +4,7 @@
 
 ### C++ · OOP · File I/O · CLI
 
-A command-line study tool I built to prep for technical interviews — it quizzes you on algorithms and machine-learning systems questions, tracks your streaks, and only retests you on the questions you haven't mastered yet.
+A command-line study tool I built to prep for technical interviews - it quizzes you on algorithms and machine-learning systems questions, tracks your streaks, and only retests you on the questions you haven't mastered yet.
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![OOP](https://img.shields.io/badge/OOP-00599C?style=for-the-badge&logoColor=white)
@@ -21,7 +21,7 @@ A command-line study tool I built to prep for technical interviews — it quizze
 | Feature | Details |
 | --- | --- |
 | 📚 Two quiz decks | Algorithms/data structures and ML/systems, loaded from CSV datasets |
-| 🔁 Spaced repetition | Correct answers build a streak; only low-streak questions come up again — a streak of 2+ means you've mastered the card |
+| 🔁 Spaced repetition | Correct answers build a streak; only low-streak questions come up again - a streak of 2+ means you've mastered the card |
 | 💾 Persistent progress | Streaks are saved back to the CSV files on exit, so progress carries across sessions |
 | 🔍 Binary search lookup | Find any question instantly by ID |
 | 📊 Session statistics | Accuracy and correct/incorrect counts after every session |
@@ -29,10 +29,10 @@ A command-line study tool I built to prep for technical interviews — it quizze
 
 ## 🏗️ Design highlights
 
-- **OOP with inheritance & polymorphism** — abstract `StudyModule` base class with a pure virtual `displayHint()`, overridden by `AlgorithmQuiz` and `MachineLearningQuiz`
-- **Manual memory management** — the question deck is a dynamically allocated array (`new[]`/`delete[]`) with a virtual destructor for safe cleanup through base pointers
-- **Classic algorithms** — bubble sort to keep the deck ordered, binary search for ID lookup
-- **File I/O** — custom CSV parsing for loading question banks and persisting progress
+- **OOP with inheritance & polymorphism** - abstract `StudyModule` base class with a pure virtual `displayHint()`, overridden by `AlgorithmQuiz` and `MachineLearningQuiz`
+- **Manual memory management** - the question deck is a dynamically allocated array (`new[]`/`delete[]`) with a virtual destructor for safe cleanup through base pointers
+- **Classic algorithms** - bubble sort to keep the deck ordered, binary search for ID lookup
+- **File I/O** - custom CSV parsing for loading question banks and persisting progress
 
 ## 📁 Project structure
 
